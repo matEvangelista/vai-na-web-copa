@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    cursor: url("https://i.pinimg.com/originals/63/c2/85/63c285141e9a8f5cbc036b577f56a7dd.png"), auto;
+}
+
+header { 
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav {
+    width: 50%;
+}
+
+.images {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.images img {
+    width: 79px;
+}
+
+main section:first-of-type {
+    height: 80vh;
+    background-image: url("https://static.corinthians.com.br/uploads/1560193829afdec7005cc9f14302cd0474fd0f3c96.jpg");
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+}
+
+main section:first-of-type > h2 {
+    margin-left: 100px;
+}
+
+main section:last-of-type {
+    background-color: green;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main section:last-of-type figure {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+main section:last-of-type img {
+    width: 300px;
+}
+
+main section:last-of-type img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
